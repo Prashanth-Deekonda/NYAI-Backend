@@ -1,0 +1,95 @@
+# Python general
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+instance/
+logs/
+db/chroma/
+db/chroma_rag/
+
+# Flask session
+flask_session/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment files
+.env
+.env.*
+.env.production
+.env.local
+.env.development
+.env.staging
+.env.test
+!.env.example
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints
+
+# Miscellaneous
+debug_system_prompt.txt
+results.csv
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large model files or embeddings
+*.bin
+*.pt
+*.h5
+
+# Keep knowledge base directory but ignore large temporary files
+knowledge_base/*.tmp
+
+# Submodules
+IndicTransToolkit/
+
+# Docker
+.dockerignore
+docker-compose.yml
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+.DS_Store
+*.bak
+*.tmp
+
+# Model weights (large files)
+*.pth
+*.pt
